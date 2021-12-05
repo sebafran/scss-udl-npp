@@ -3,13 +3,13 @@ SCSS User Defined Languages - UDL version 2.1 for [Notepad++][1]
 
 Because I love some of the features of Notepad++ i wanted to use it for [SASS / SCSS](http://sass-lang.com). Natively there is no scss in it and I did not find a satisfactory plugin so I had to do it myself. There are two here:
 1. `scss.xlm` - For default setting light mode. I tried to make css highlighting resemble this default CSS syntax highlighting provided by [Notepad++][1]
-2. `scss-BlackBoardTheme` - as the name suggests for Black Board Theme
+2. `scss-BlackBoardTheme.xml` - as the name suggests for Black Board Theme
 
 ## How to use
 
 The infos comes from [npp user manual](https://npp-user-manual.org/docs/user-defined-language-system/#import-a-udl)
 
-Once you have the XML, you can then import it into your Notepad++, so that you can use that UDL yourself. There are two main ways to do this:
+Once you have the XML, you can then import it into your [Notepad++][1], so that you can use that UDL yourself. There are two main ways to do this:
 
 1. Copy the XML into the appropriate `userDefineLangs` subfolder. Exit all instances of Notepad++ and reload, then the new UDL will be available.
 2. Use the Import… button, navigate to the source XML, and the UDL will be immediately available.
